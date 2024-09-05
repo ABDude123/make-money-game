@@ -1,0 +1,210 @@
+body {
+    font-family: 'Orbitron', sans-serif;  /* Futuristic font */
+    background-color: #0e0e0e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: linear-gradient(145deg, #141414, #1f1f1f);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    color: #00ffcc;  /* Neon green text */
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #00ffcc;
+}
+
+.money-box {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    box-shadow: 0 0 20px #00ffcc;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #00ffcc;
+    color: #0e0e0e;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #009988;
+    transform: scale(1.05);
+}
+
+button.red {
+    background-color: red;
+}
+
+button.green {
+    background-color: green;
+}
+
+.futuristic-btn {
+    background-color: #00ffcc;
+    color: #0e0e0e;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.futuristic-btn:hover {
+    background-color: #009988;
+}
+
+.slots {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.slots span {
+    font-size: 48px;
+    background-color: #141414;
+    border: 2px solid #00ffcc;
+    padding: 20px;
+    margin: 0 10px;
+    width: 60px;
+    text-align: center;
+    color: #00ffcc;
+}
+
+#slotStatus {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #00ffcc;
+}
+
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #00ffcc;
+    color: #0e0e0e;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #009988;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0e0e0e;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    margin: 0.5rem;
+}
+
+button {
+    background-color: #00ffcc;
+    color: #0e0e0e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #009988;
+    transform: scale(1.05);
+}
+
+.money-box, .game-container {
+    background-color: #141414;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.stock {
+    margin-bottom: 20px;
+}
+
+.stock p, .stock button {
+    display: inline-block;
+}
+
+#wallstreet-stock-list .stock {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid gold;
+}
+
+#wallstreet-stock-list .btn {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+/* Slot machine animation */
+.spinning {
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Other styles */
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}

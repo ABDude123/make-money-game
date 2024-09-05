@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Make Money Game",
+    "version": "1.0",
+    "description": "A simple money-making simulation game.",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+      }
+    },
+    "permissions": [
+      "storage"
+    ],
+    "icons": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    }
+  }

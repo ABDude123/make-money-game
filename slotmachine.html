@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Make Money</h1>
+        <h2>Casino</h2>
+        <p>Money: <span id="money">$0</span></p>
+
+        <div class="slot-machine">
+            <div class="slots">
+                <span id="slot1">0</span>
+                <span id="slot2">0</span>
+                <span id="slot3">0</span>
+            </div>
+            <p>Enter how much to gamble:</p>
+            <input type="number" id="betAmount" min="1" value="1">
+            <button id="gambleBtn" class="btn">Gamble</button>
+        </div>
+        <p id="slotStatus"></p>
+        
+        <a href="index.html" class="btn">Back</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

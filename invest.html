@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Invest in Stocks</h1>
+        <p>Money: <span id="money">$0</span></p>
+
+        <!-- Regular Stocks Section -->
+        <div id="stock-list">
+            <div class="stock" id="stockA">
+                <p>Stock A: <span id="stockA-price">$10</span></p>
+                <button id="buyStockA" class="btn">Buy</button>
+                <button id="sellStockA" class="btn">Sell</button>
+                <p>Shares Owned: <span id="stockA-shares">0</span></p>
+            </div>
+
+            <div class="stock" id="stockB">
+                <p>Stock B: <span id="stockB-price">$15</span></p>
+                <button id="buyStockB" class="btn">Buy</button>
+                <button id="sellStockB" class="btn">Sell</button>
+                <p>Shares Owned: <span id="stockB-shares">0</span></p>
+            </div>
+
+            <div class="stock" id="stockC">
+                <p>Stock C: <span id="stockC-price">$8</span></p>
+                <button id="buyStockC" class="btn">Buy</button>
+                <button id="sellStockC" class="btn">Sell</button>
+                <p>Shares Owned: <span id="stockC-shares">0</span></p>
+            </div>
+        </div>
+
+        <!-- Wall Street Stocks Section -->
+        <h2>Wall Street Stocks</h2>
+        <div id="wallstreet-stock-list">
+            <div class="stock" id="stockX">
+                <p>Stock X: <span id="stockX-price">$1000</span></p>
+                <button id="buyStockX" class="btn">Buy</button>
+                <button id="sellStockX" class="btn">Sell</button>
+                <p>Shares Owned: <span id="stockX-shares">0</span></p>
+            </div>
+
+            <div class="stock" id="stockY">
+                <p>Stock Y: <span id="stockY-price">$2000</span></p>
+                <button id="buyStockY" class="btn">Buy</button>
+                <button id="sellStockY" class="btn">Sell</button>
+                <p>Shares Owned: <span id="stockY-shares">0</span></p>
+            </div>
+
+            <div class="stock" id="stockZ">
+                <p>Stock Z: <span id="stockZ-price">$3000</span></p>
+                <button id="buyStockZ" class="btn">Buy</button>
+                <button id="sellStockZ" class="btn">Sell</button>
+                <p>Shares Owned: <span id="stockZ-shares">0</span></p>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn futuristic-btn">Back to Game</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
